@@ -1,0 +1,282 @@
+body {
+  font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+header p {
+  color: #5863e3;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 19.55px;
+}
+
+header h2 {
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56.35px;
+}
+
+header {
+  padding-top: 57px;
+  padding-left: 375px;
+  margin-bottom: 57px;
+}
+
+form textarea {
+  width: 756px;
+  height: 298px;
+  padding: 20px;
+  margin-right: 20px;
+  color: #99999a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  border: 2px solid #00000033;
+}
+
+form {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.div-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 370px;
+}
+
+.div-info input,
+button {
+  width: 370px;
+  height: 59px;
+  padding-left: 19px;
+  border: 2px solid #00000033;
+}
+
+.div-info button {
+  background-color: #5968f4;
+  cursor: pointer;
+  color: white;
+}
+
+.contact-sec {
+  display: flex;
+  justify-content: center;
+}
+
+.div-img1 {
+  width: 68px;
+  height: 68px;
+  background-color: #5968f4;
+  border-radius: 50%;
+  background-image: url(../images/email-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.div-img2 {
+  width: 68px;
+  height: 68px;
+  background-color: #5968f4;
+  border-radius: 50%;
+  background-image: url(../images/Phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.div-img3 {
+  width: 68px;
+  height: 68px;
+  background-color: #5968f4;
+  border-radius: 50%;
+  background-image: url(../images/Location-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-margin {
+  margin-right: 238px;
+  margin-left: 238px;
+}
+
+.contact-sec h2 {
+  color: #4e4d54;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.contact-sec p {
+  color: #99999a;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.25px;
+  width: 122px;
+}
+
+.contact-sec div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-sec {
+  margin-bottom: 75px;
+}
+
+.center-div-text-p-h2 p {
+  color: #5863e3;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 19.55px;
+}
+
+.center-div-text-p-h2 h2 {
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56.35px;
+}
+
+.center-div-text-p-h2 {
+  margin-left: 375px;
+  margin-bottom: 53px;
+}
+
+.photos-sec {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  padding: 63px 176px 107px 143px;
+  justify-content: space-between;
+}
+
+.f-left-div h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 29.9px;
+}
+
+.f-left-div p {
+  width: 295px;
+  height: 80px;
+  color: #99999a;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 19.55px;
+}
+
+.f-left-div {
+  margin-right: 50px;
+}
+
+.f-right-div {
+  display: flex;
+  width: 635px;
+  justify-content: space-between;
+}
+
+.f-right-div h2 {
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24.15px;
+  margin-bottom: 32px;
+}
+
+.f-right-div li {
+  color: #5863e3;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+}
+
+#white-li {
+  color: white;
+}
+
+.f-right-div li {
+  line-height: 28px;
+}
+
+.f-right-div i {
+  margin-right: 15px;
+}
+
+
+
+@media (max-width: 1133px) {
+  footer {
+    padding: 20px;
+  }
+
+  .center-div-text-p-h2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center;
+    text-align: center;
+  }
+
+  header {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 860px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  form {
+    flex-wrap: wrap;
+  }
+
+  .contact-sec {
+    flex-direction: column;
+  }
+
+  .contact-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .contact-sec p {
+    width: auto;
+  }
+
+}
+
+@media (max-width: 760px) {
+  footer {
+    justify-content: center;
+  }
+
+  .f-right-div {
+    flex-wrap: wrap;
+  }
+
+  
+}
+
+@media (max-width:550px) {
+  .center-div-text-p-h2 h2 {
+    font-size: 30px;
+    
+
+  }
+}
